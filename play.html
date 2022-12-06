@@ -1,0 +1,44 @@
+<!-- play.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <table>
+    <tr>
+      <td><button></button></td>
+      <td><button></button></td>
+      <td><button></button></td>
+    </tr>
+    <tr>
+      <td><button></button></td>
+      <td><button></button></td>
+      <td><button></button></td>
+    </tr>
+    <tr>
+      <td><button></button></td>
+      <td><button></button></td>
+      <td><button></button></td>
+    </tr>
+  </table>
+
+  <script>
+    // Get all the buttons in the table
+    const buttons = document.querySelectorAll('table button');
+
+    // Add an event listener to each button
+    buttons.forEach((button) => {
+      button.addEventListener('click', (event) => {
+        // Check if the button is empty
+        if (event.target.innerText === '') {
+          // Set the button to X
+          event.target.innerText = 'X';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

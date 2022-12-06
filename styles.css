@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    background-color: #1e90ff;
+    color: #fff;
+    /* text-align: center; */
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #1e90ff;
+    color: #fff;
+    border: 0.1em solid #fff;
+    border-radius: 0.25em;
+    padding: 0.5em;
+  }
+  
+  input[type="text"], input[type="number"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: #fff;
+    color: #1e31ff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  form {
+    margin: auto;
+    max-width: 25em;
+  }
+
+  input[type="submit"] {
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: #00bfff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #008080;
+  }
+
+  table {
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  table button {
+    /* ... existing styles ... */
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
